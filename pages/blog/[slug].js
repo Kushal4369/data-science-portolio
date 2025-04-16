@@ -58,7 +58,7 @@ def hello():
   if (!post) return <div className="text-center py-20 text-white">Loading...</div>;
 
   return (
-    <div className="bg-black text-white min-h-screen px-6 py-20">
+    <div className="bg-black text-white min-h-screen px-6 py-20 flex flex-col gap-8 items-center">
       <motion.h1
         className="text-4xl font-bold text-center mb-6 bg-gradient-to-r from-pink-500 to-purple-500 bg-clip-text text-transparent"
         initial={{ opacity: 0, y: -20 }}
@@ -79,6 +79,11 @@ def hello():
       >
         <ReactMarkdown>{post.content}</ReactMarkdown>
       </motion.article>
+      <div className="bg-gray-800 w-52 md:w-1/3 text-green-400 font-mono text-sm p-4  srounded-md shadow-inner overflow-auto whitespace-pre-wrap">
+      <pre>Hello Code</pre>
+    </div>
+    <iframe src="/117a174defa442f8bb23eac28002b818.html" height={600} width={350} />
+
     </div>
   );
 }
