@@ -163,7 +163,7 @@ export default function Portfolio() {
         </div>
         <motion.a
             href="/blog"
-            className=" w-1/6 text-center inline-block bg-gradient-to-r from-indigo-600 to-purple-600 text-white px-6 py-3 rounded-full shadow-lg transition-transform"
+            className=" w-36 md:w-1/3 text-center inline-block bg-gradient-to-r from-indigo-600 to-purple-600 text-white px-6 py-3 rounded-full shadow-lg transition-transform"
             whileHover={{ scale: 1.05 }}
           >
             Read More
